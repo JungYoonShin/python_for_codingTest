@@ -46,4 +46,5 @@ def solution(N, stages):
     # 정렬된 스테이지 번호 반환
     answer = [i[0] for i in answer]
     return answer
+
 '''
