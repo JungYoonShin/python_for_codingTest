@@ -18,8 +18,8 @@ def solution(N, stages):
     failure.sort(key = lambda x : x[1], reverse = True)
     return list(map(lambda x : x[0], failure))
    #return [i[0] for i in answer]
-  
 
+  
 '''
 def solution(N, stages):
     answer = []
