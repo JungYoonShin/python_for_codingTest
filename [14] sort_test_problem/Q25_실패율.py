@@ -19,7 +19,7 @@ def solution(N, stages):
     return list(map(lambda x : x[0], failure))
    #return [i[0] for i in answer]
 
-  
+
 '''
 def solution(N, stages):
     answer = []
