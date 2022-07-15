@@ -24,3 +24,4 @@ while start <= end:
     result = mid
     start = mid + 1
 print(result)
+

@@ -12,7 +12,7 @@ while True:
 
 print(result)
 
-''
+'''
 교재에서 푼 코드
 n, k = list(map(int, input().split()))
 result = 0

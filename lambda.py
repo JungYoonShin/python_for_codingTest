@@ -13,3 +13,7 @@ def solution(array, commands):
 print([3, 5, 2, 5, 10][3])
 
 print(list(map(lambda x : x+3, [3, 4, 5])))
+
+#리스트 key로 정렬하기
+failure = [[1, 2], [3, 4], [0, 2]]
+failure.sort(key = lambda x : x[1], reverse = True)
