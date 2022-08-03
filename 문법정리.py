@@ -17,3 +17,21 @@ else:
 
 value = '수박' if s > 20 else '복숭아'
 '''
+
+#문자 'a', 'b' ..를 숫자로 표현하기
+print(ord('c') - ord('a'))
+
+#문자열 정렬하려면 sort()말고 sorted()써야함
+print(sorted('asdfs'))
+
+#시간초과 뜨면(입력 빠르게 받는 방법?)
+'''
+import sys
+ 
+f = sys.stdin.readline
+a, b = map(int, f().split())
+'''
+
+#슬라이스로 문자열 뒤집기
+ss = "dddd"
+print(ss[::-1])
