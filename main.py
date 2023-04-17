@@ -1,31 +1,48 @@
-# #17413번
-# n = input()
+# a = 777
+# print(a)
 
-# result = []
-# ss = ""
-# flag = 0
-# for i in n:
-#     ss += i
-#     if i == '<':
-#         #태그 사이에 문자가 있을 때
-#         if ss != "<":
-#             ss = ss[len(ss) - 2::-1]
-#             result.append(''.join(ss))
-#         ss = ""
-#         ss += i
-#         flag = 1
-#     if i == '>':
-#         flag = 0
-#         result.append(ss)
-#         ss = ""
-#     #문자 처리
-#     if flag == 0 and i == ' ':
-#         ss = ss[len(ss) - 2::-1] + ss[len(ss) - 1]
-#         result.append(''.join(ss))
-#         ss = ""
-# #남은 문자열에 대한 처리
-# if ss != "":
-#     ss = ss[::-1]
-#     result.append(''.join(ss))
-# print(''.join(result))
+# a = int(1e9)
+# print(a)
+
+# print(10%3)
+
+# a = [[0] * 4 for _ in range(3)]
+# a[1][1] = 3
+# print(a)
+# b = [i for i in range(1, 21) if i%2==0]
+# print(b)
+
+# a = [1,2,3,4,7,8]
+# remove_set = {3, 5}
+
+# b = [i for i in a if i not in remove_set]
+# print(b)
+
+# print("Hi who are \"you\"?")
+
+# a = dict()
+# a['age'] = '12'
+# a['height'] = '153'
+
+# print(a)
+# if 'age' in a:
+#   print(a.get('age'))
+
+# a = [[i] for i in range(10)]
+# print(a)
+# a = list(map(int, input().split()))
+
+# import sys 
+# data = sys.stdin.readline().rstrip()
+# print(data)
+
+# answer = 8
+# print(f"정답은 {answer} 입니다.")
+
+# b= 10
+# result = "success" if b > 10 else "fail"
+# print(result)
+
+a, b = map(int, input().split())
+print(a, b)
 
