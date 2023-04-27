@@ -41,5 +41,5 @@ result = lambda x: "A등급" if x > 80 else "B등급"
 print(result(score))
 
 score = 74
-result = lambda x:"A등급" if x > 90 else("B등급" if x>= 80 else "C등급")
+result = lambda x: "A등급" if x > 90 else ("B등급" if x >= 80 else "C등급")
 print(result(score))
